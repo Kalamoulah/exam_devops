@@ -10,9 +10,9 @@ pipeline {
 
     stages {
         stage('Checkout') {
-            steps {
-                checkout scm
-            }
+        steps {
+                 git branch: 'master', url: 'https://github.com/papadiouf13/hospital-api.git'
+               }
         }
 
         stage('Build') {
