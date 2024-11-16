@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
         steps {
-                 git branch: 'master', url: 'https://github.com/papadiouf13/hospital-api.git'
+                 git branch: 'master', url: 'https://github.com/Kalamoulah/exam_devops.git'
                }
         }
 
